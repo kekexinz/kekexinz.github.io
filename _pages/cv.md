@@ -6,27 +6,19 @@ author_profile: true
 redirect_from:
   - /resume
 ---
-
-{% include base_path %}
-
 Education
 ======
-* B.S. in GitHub, GitHub University, 2012
-* M.S. in Jekyll, GitHub University, 2014
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
+* Ph.D in aerospace engineering, University of Michigan, Ann Arbor, 2015 - 2020.
+* MS in applied math, University of Michigan, Ann Arbor, 2014 - 2015.
+* MSE in aerospace engineering, University of Michigan, Ann Arbor, 2013 - 2015.
+* BSE in aerospace engineering, University of Michigan, Ann Arbor, 2012 - 2013.
+* BSE in mechanical engineering, Joint Institute, Shanghai Jiao Tong University, 2010 - 2013.
+
 
 Work experience
 ======
-* Summer 2015: Research Assistant
-  * Github University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
+* Postdoc research associate, University of Michigan, Ann Arbor, 2021 -  now.
 
-* Fall 2015: Research Assistant
-  * Github University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
-  
 Skills
 ======
 * Skill 1
