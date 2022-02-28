@@ -8,12 +8,24 @@ redirect_from:
   - /about.html
 ---
 
-My name is Sicheng He. I am currently a postdoct research associate at the Unversity of Michigan-Ann Arbor collaborating with [Prof. Joaquim R. R. A. Martins](https://aero.engin.umich.edu/people/martins-joaquim-r-r-a/).
+My name is Sicheng He. 
+I am a postdoc research associate at the Unversity of Michigan-Ann Arbor collaborating with [Prof. Joaquim R. R. A. Martins](https://aero.engin.umich.edu/people/martins-joaquim-r-r-a/).
+Currently, I am developing algorithms to enable large-scale optimization of dynamical systems with high-fidelity models.
 
-My research interests include
+My research interests include:
 
-* Optimization (PDE-constraind optimization / numerical optimization / mixed integer programming / multidisciplinary design optimization (MDO) / Control co-design)
-* Sensitivity analysis (adjoint method / algorithmic differentiation (AD))
-* High performance computing (HPC) for computational fluid dynamics (CFD) and computational aeroelasticity
-* Deep learning
-* Theoretical fluid dynamics (laminar turbulent transitional flow / buffet)
+* Optimization 
+  * PDE-constraind optimization 
+  * Mixed integer programming 
+  * Multidisciplinary design optimization (MDO) 
+  * Control co-design (CCD)
+  * Machine learning based surrogate mode 
+* Sensitivity analysis 
+  * Adjoint method 
+  * Algorithmic differentiation (AD)
+* High performance computing (HPC) 
+  * Computational fluid dynamics (CFD) 
+  * Computational aeroelasticity
+* Theoretical fluid dynamics
+  * Laminar turbulent transitional flow 
+  * Transonic buffet
