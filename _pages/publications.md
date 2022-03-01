@@ -30,3 +30,9 @@ author_profile: true
 | <video width="200" height="10" controls><source src="flutter_fine.mp4" type="video/mp4"></video>| __Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__A coupled Newton–Krylov time-spectral solver for wing ﬂutter and LCO prediction__](https://arc.aiaa.org/doi/10.2514/6.2019-3549). <br><br> _In AIAA Aviation Forum, Dallas, TX, June 2019_. (Best student paper award, 2nd place)|
 | <img src='../images/publication/flutter_boundary.png' align="center" width="200" height="10"> |__Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__Aerodynamic shape optimization with time spectral ﬂutter adjoint__](https://arc.aiaa.org/doi/10.2514/6.2019-0697). <br><br> _In 2019 AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference, San Diego, CA, January 2019. American Institute of Aeronautics and Astronautics_.|
 | <img src='../images/publication/2dof.pdf' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__A coupled Newton–Krylov time spectral solver for ﬂutter prediction__](https://arc.aiaa.org/doi/10.2514/6.2018-2149). <br><br> _In 2018 AIAA/ASCE/AHS/ASC Structures, Structural Dynamics, and Materials Conference, Kissimmee, FL, January 2018. American Institute of Aeronautics and Astronautics_.|
+
+## Thesis
+
+|        | Title |
+|   :-:    | -       |  
+| <img src='../images/publication/optimization.pdf' align="center" width="200" height="10"> | __Sicheng He__. ["Aerodynamic Shape Optimization using a Time-Spectral Approach for Limit Cycle Oscillation Prediction."](https://deepblue.lib.umich.edu/handle/2027.42/167969) PhD diss., 2020.
