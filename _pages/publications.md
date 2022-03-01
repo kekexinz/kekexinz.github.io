@@ -19,13 +19,6 @@ author_profile: true
 | <img src='../images/publication/stream.png' align="center" width="200" height="10"> | Jichao Li, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Data-driven constraint approach to ensure low-speed performance in transonic aerodynamic shape optimization__](https://www.sciencedirect.com/science/article/pii/S1270963819304912)  <br><br> _Aerospace Science and Technology_ (2019).|
 | <img src='../images/publication/stress.pdf' align="center" width="200" height="10"> | Mohammad Shahabsafa, Ali Mohammad-Nezhad, Tamas Terlaky, Luis Zuluaga, __Sicheng He__, John T. Hwang, and Joaquim R. R. A. Martins. <br><br> [__A novel approach to discrete truss design problems using mixed integer neighborhood search__](https://link.springer.com/article/10.1007/s00158-018-2099-8)  <br><br> _Structural and Multidisciplinary Optimization_ (2018).|
 
-
-## Conference proceedings
-
-|        | Title |
-|   :-:    | -       |  
-| <img src='/images/publications/2014_dsmc/dsmc.png' align="center" width="200" height="10"> |  __Shaowu Pan__, Zhenxun Gao, and Chunhian Lee. <br><br> [__Numerical investigation of rarefaction effects in the vicinity of a sharp leading edge__](http://aip.scitation.org/doi/abs/10.1063/1.4902591). <br><br> _AIP Conference Proceedings_, vol. 1628, no. 1, pp. 185-191. American Institute of Physics, 2014. |
-
 ## Conference proceedings
 |        | Title |
 |   :-:    | -       |  
