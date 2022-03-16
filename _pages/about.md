@@ -29,3 +29,8 @@ My research interests include:
 * Theoretical fluid dynamics
   * Laminar turbulent transitional flow 
   * Transonic buffet
+
+
+[Erdos number:](https://mathscinet.ams.org/mathscinet/collaborationDistance.html) 4
+
+[Einstein number:](https://mathscinet.ams.org/mathscinet/collaborationDistance.html?group_source=62280) 5
