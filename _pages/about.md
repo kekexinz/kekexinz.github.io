@@ -10,9 +10,10 @@ redirect_from:
 
 My name is Sicheng He. 
 I am a PostDoc at the [LAE lab](https://lae.mit.edu/) at MIT working with [Prof. Barrett](http://barrett.mit.edu/) and [Dr. Speth](https://lae.mit.edu/team/raymond-speth/).
-Previously, I worked with [Prof. Joaquim R. R. A. Martins](https://aero.engin.umich.edu/people/martins-joaquim-r-r-a/) as a Ph.D. student and later as a PostDoc research associate at the Unversity of Michigan-Ann Arbor.
-In Michigan, I developed algorithms to enable large-scale optimization of dynamical systems with high-fidelity models.
+Previously, I worked with [Prof. Joaquim R. R. A. Martins](https://aero.engin.umich.edu/people/martins-joaquim-r-r-a/) at the Unversity of Michigan-Ann Arbor.
+<!-- In Michigan, I developed algorithms to enable large-scale optimization of dynamical systems with high-fidelity models. -->
 
+![Drag Racing](../images/balls.001.png)
 
 My research interests include:
 
