@@ -48,4 +48,17 @@ Teaching
   
 Service and leadership
 ======
-* [IBiM seminar](http://ibim-conference.com/) co-organizer.
+* Membership
+  * International Civil Aviation Organization (ICAO), Committee on Aviation Environmental Protection (CAEP), [working group 3 (WG3)](https://www.icao.int/environmental-protection/Pages/CAEP-WG3.aspx). 
+    * WG3 deals with aircraft performance and emission technical matters, including the updating of Annex 16 - Volume II and the development of the new aircraft CO2 Standard, Annex 16 – Volume III.
+* Seminar organization
+  * [IBiM seminar](http://ibim-conference.com/) co-organizer.
+* Technical committee
+  * [International Ocean and Polar Engineering Conference (ISOPE) 2023 Ottawa](https://www.isope.org/)
+* Journal reviewer
+  * AIAA Journal
+  * Structural and Multidisciplinary Optimization (SAMO)
+  * International Journal for Numerical Methods in Fluids
+  * Aerospace, MDPI Journal
+  * Drones, MDPI Journal
+  * AIAA Scitech Conference Abstract (2021, 2022, 2023)
