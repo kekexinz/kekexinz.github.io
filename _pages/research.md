@@ -28,6 +28,26 @@ Current research
 
 Design optimization with dynamical systems and control
 ------
+
+The algorithmic differentiation (AD) formula and the adjoint development
+------
+
+Did you know that there is a very elegant equation to compute eigenvalue derivatives with respect to all the entries of the matrix for real and symmetric matrix?
+$$
+\frac{\mathrm{d} \lambda}{\mathrm{d} \mathbf{A}} = \frac{{\boldsymbol{\phi}}\boldsymbol{\phi}^\intercal}{\boldsymbol{\phi}^\intercal{\boldsymbol{\phi}}},
+$$
+where $\mathbf{A}$ is a real and symmetric coefficient matrix,  $\lambda$ is an eigenvalue, and $\boldsymbol{\phi}$ is a corresponding eigenvector. 
+
+We discovered in this [paper](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method) a general version of this formula for a complex non-Hermitian matrix.
+$$
+\begin{aligned}
+\frac{\mathrm{d} \lambda_r}{\mathrm{d} \mathbf{A}} &= \frac{\tilde{\boldsymbol{\phi}}\boldsymbol{\phi}^*}{\boldsymbol{\phi}^*\tilde{\boldsymbol{\phi}}}, \\
+\frac{\mathrm{d} \lambda_i}{\mathrm{d} \mathbf{A}} &=  i\frac{\mathrm{d} \lambda_r}{\mathrm{d} \mathbf{A}},\\
+\end{aligned}
+$$
+where $\mathbf{A}$ is a general complex coefficient matrix,  $\lambda = \lambda_r + i \lambda_i$ is an eigenvalue, $\boldsymbol{\phi}$ is a corresponding right eigenvector, and $\tilde{\boldsymbol{\phi}}$ is the corresponding left eigenvector.
+
+
 Wind turbine aerostructural optimization
 ------
 
