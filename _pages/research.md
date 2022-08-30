@@ -34,7 +34,7 @@ The algorithmic differentiation (AD) formula and the adjoint development
 
 Did you know that there is a very elegant equation to compute eigenvalue derivatives with respect to all the entries of the matrix for real and symmetric matrix?
 $$
-\frac{\mathrm{d} \lambda}{\mathrm{d} \mathbf{A}} = \frac{{\boldsymbol{\phi}}\boldsymbol{\phi}^\intercal}{\boldsymbol{\phi}^\intercal{\boldsymbol{\phi}}},
+\frac{\mathrm{d} \lambda}{\mathrm{d} \mathbf{A}} = \frac{{\boldsymbol{\phi}}\boldsymbol{\phi}^T}{\boldsymbol{\phi}^T{\boldsymbol{\phi}}},
 $$
 where $\mathbf{A}$ is a real and symmetric coefficient matrix,  $\lambda$ is an eigenvalue, and $\boldsymbol{\phi}$ is a corresponding eigenvector. 
 
