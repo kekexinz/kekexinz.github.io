@@ -21,7 +21,7 @@ An overview of my research is shown below:
 
 ![Drag Racing](../images/balls.001.png)
 
-The research vision that differentiates me from other labs doing MDO is listed below:
+The research vision that differentiates me from other labs working on MDO is listed below:
 1. **(Theory)** MDO shall be enabled to address ever **more complex dynamical systems and control problems** beyond the current focus, i.e., the steady-state problems.
 2. **(Implementation/code)** **Efficient and general-purpose codes** for design optimization in dynamical systems and control shall be developed leveraging the abstraction ability of the mathematical representation.
 3. **(Application)** I develop **environmentally friendly engineering designs**, such as efficient off-shore wind turbines, and aircraft with less noise and emission, to address critical climate and energy challenges of modern society.
