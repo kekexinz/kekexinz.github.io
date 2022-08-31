@@ -57,6 +57,9 @@ Notably, for the category 1, I develop an algorithm that demontrate that the clo
 Another highlight of this category is that I develop a fundamental method to discover reverse algorithmic differentiation formula using the forward algorithmic differentiation formula for complex analytic equation and I am **the first to discover** (see the following [section](#2-the-algorithmic-differentiation-ad-formula-and-the-adjoint-development)) a succint eigenvalue derivative formula for a general complex matrix.
 A list of publication for category (1) is shown below. 
 
+![baseline](../images/research/baseline.gif)
+![optimized](../images/research/optimized.gif)
+
 __Publication:__
 
 
