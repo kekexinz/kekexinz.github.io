@@ -14,11 +14,11 @@ Previously, I worked with [Prof. Joaquim R. R. A. Martins](https://aero.engin.um
 You can find more about my research [here](https://sichenghe.github.io/research/).
 
 <img src="../images/MIT.png" width="100">
-<img src="../images/MIT_AA.png" width="200">
+<!-- <img src="../images/MIT_AA.png" width="200"> -->
 <img src="../images/LAE.png" width="200">
 
 <img src="../images/umich.png" width="100">
-<img src="../images/umich_aero.png" width="400">
+<!-- <img src="../images/umich_aero.png" width="400"> -->
 <img src="../images/mdo.svg" width="200">
 
 
