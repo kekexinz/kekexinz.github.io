@@ -50,8 +50,8 @@ My research partially answers the question by focusing on developing algorithms 
 The key finding of the research is that each dynamical system has its own unique structure and the adjoint method shall be developed leveraging these structures to gain computational efficiency. 
 Two highlights of my previous research are: 
 1. I developed an algorithm demonstrating that the closed-loop control co-design problem can be solved at a cost independent of the number of design variables. 
-Using the algorithm, I optimized the drone aerodynamic shape which **reduces the control cost by about 30\%**.
-1. I developed a **fundamental** method to discover the reverse algorithmic differentiation formula using the forward algorithmic differentiation formula for complex analytic equation and we are \textbf{the first to discover} a succint eigenvalue derivative formula for a general complex matrix.
+Using the algorithm, I optimized the drone aerodynamic shape which **reduces the control cost by about 30%**.
+1. I developed a **fundamental** method to discover the reverse algorithmic differentiation formula using the forward algorithmic differentiation formula for complex analytic equation and we are **the first to discover a succint eigenvalue derivative formula for a general complex matrix.
 
 ![baseline](../images/research/baseline.gif)
 ![optimized](../images/research/optimized.gif)
@@ -61,9 +61,9 @@ __Publication:__
 
 |        |  |
 |   :-:    | -       |  
-| <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Shugo Kaneko, Eirikur Jonsson, Marco Mangano, Joaquim R. R. A. Martins.  <br><br> [__Control co-design sensitivity computation using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _submitted to SIAM applied dynamics (SIADS)_ (2022).|
-| <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Adjoint-based Linear stability constrained design optimization__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _submitted to SIAM applied dynamics (SIADS)_ (2022).|
-| <img src='../images/publication/eigenXDSM.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, and joaquim R. R. A. Martins.  <br><br> [__Adjoint-based Limit Cycle Oscillation Instability Sensitivity and Suppression__](https://www.researchgate.net/publication/363581644_Adjoint-based_Limit_Cycle_Oscillation_Instability_Sensitivity_and_Suppression)  <br><br> _Nonlinear dynamics (accepted)_ (2022).|
+| <img src='../images/publication/codesign.png' align="center" width="200" height="10"> | __Sicheng He__, Shugo Kaneko, Eirikur Jonsson, Marco Mangano, Joaquim R. R. A. Martins.  <br><br> [__Control co-design sensitivity computation using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _submitted to SIAM applied dynamics (SIADS)_ (2022).|
+| <img src='../images/publication/LST.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Adjoint-based Linear stability constrained design optimization__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _submitted to SIAM applied dynamics (SIADS)_ (2022).|
+| <img src='../images/publication/LCO_stability.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Adjoint-based Limit Cycle Oscillation Instability Sensitivity and Suppression__](https://www.researchgate.net/publication/363581644_Adjoint-based_Limit_Cycle_Oscillation_Instability_Sensitivity_and_Suppression)  <br><br> _Nonlinear dynamics_ (2022).|
 | <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Yayun Shi, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Eigenvalue problem derivatives computation for a complex matrix using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _MSSP (accepted)_ (2023).|
 | <img src='../images/publication/eigenXDSM.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, and joaquim R. R. A. Martins.  <br><br> [__Derivatives for Eigenvalues and Eigenvectors via Analytic Reverse Algorithmic Differentiation__](https://arc.aiaa.org/doi/abs/10.2514/1.J060726?journalCode=aiaaj)  <br><br> _AIAA Journal_ (2022).|
 
@@ -79,7 +79,7 @@ Answering this question, the aircraft designs generated from MDO will be much mo
 This project is closely related to the previous project because the aeroelastic problem is categorized as an LCO problem from the perspective of dynamical system theory.
 To answer the question, we developed novel algorithms using time spectral method, Newton--Krylov method, and the coupled adjoint method to obtain good scalability with respect to both state and design variables.
 The key finding of the research is that for LCO problem, it has a unique problem structure that shall be exploited by the solver to obtain the best computational performance.
-Using our proposed methods, we obtain **the-first-of-it-kind** high-fidelity CFD-based aerodynamic shape optimization for a wing using the time-spectral method that improves the flutter speed by 118\%.
+Using our proposed methods, we obtain **the-first-of-it-kind** high-fidelity CFD-based aerodynamic shape optimization for a wing using the time-spectral method that improves the flutter speed by 118%.
 This is my Ph.D. project. 
 I was awarded an AIAA Aviation Conference **best student paper award**.
 
@@ -119,7 +119,7 @@ In addition, by considering the coupling effect, we can explore a larger design 
 In this research, the pressing question we plan to address is: **How can we optimize the wind turbine design with both structural and aerodynamic shape variables and account for their coupling?**
 
 To answer that question, we apply the MDO algorithms together with computational fluid dynamics (CFD) and finite element analysis (FEA) tools. 
-The key finding of the research is that the aeroelastic coupling can be exploited to reduce the structure mass by about 2.2\% compared with an optimized design without the coupling.
+The key finding of the research is that the aeroelastic coupling can be exploited to reduce the structure mass by about 2.2% compared with an optimized design without the coupling.
 We obtained **the-first-of-it-kind** high-fidelity aerostructural optimization for wind turbines.
 We are currently exploring using the composite to obtain passive load alleviation to further improve the performance of the wind turbine designs.
 
@@ -153,3 +153,13 @@ __Publication:__
 | <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Yayun Shi, Eirikur Jonsson, and Joaquim R. R. A. Martins. <br><br> [__Eigenvalue problem derivatives computation for a complex matrix using the adjoint method__](../paper/eigen_der_complex.pdf)  <br><br> Submitted to _Mechanical system and signal processing_.|
 
 ## 6. Structural global optimization using mixed integer linear and second order cone programming
+
+The state-of-the-art design optimization in the field assumes that the structure is rigid and the coupling between the structure and fluid is neglected.
+In effect, such assumptions become problematic as the size of the wind turbine increases to improve efficiency and the structure is becoming more flexible.
+In addition, by considering the coupling effect, we can explore a larger design space and design more efficient wind turbines.
+In this research, the pressing question we plan to address is: **How can we optimize the wind turbine design with both structural and aerodynamic shape variables and account for their coupling?**
+
+To answer that question, we apply the MDO algorithms together with computational fluid dynamics (CFD) and finite element analysis (FEA) tools. 
+The key finding of the research is that the aeroelastic coupling can be exploited to reduce the structure mass by about 2.2% compared with an optimized design without the coupling.
+We obtained **the-first-of-it-kind** high-fidelity aerostructural optimization for wind turbines.
+We are currently exploring using the composite to obtain passive load alleviation to further improve the performance of the wind turbine designs.
