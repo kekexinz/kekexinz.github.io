@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+Check out my recent [presentation](https://github.com/SichengHe/MIT_LAE_seminar/blob/main/Sicheng_He_seminar.pdf)!
+
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
