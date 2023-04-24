@@ -9,10 +9,12 @@ redirect_from:
 ---
 
 My name is Sicheng He. 
+I will join [UTK MABE](https://mabe.utk.edu/) as an assitant professor this August.
 I am a PostDoc at the [LAE lab](https://lae.mit.edu/) at MIT working with [Prof. Barrett](http://barrett.mit.edu/) and [Dr. Speth](https://lae.mit.edu/team/raymond-speth/).
 Previously, I worked with [Prof. Joaquim R. R. A. Martins](https://aero.engin.umich.edu/people/martins-joaquim-r-r-a/) at the Unversity of Michigan-Ann Arbor.
 You can find more about my research [here](https://sichenghe.github.io/research/).
 
+<img src="../images/UTK.svg.png" width="100">
 <img src="../images/MIT.png" width="100">
 <!-- <img src="../images/MIT_AA.png" width="200"> -->
 <img src="../images/LAE.png" width="200">

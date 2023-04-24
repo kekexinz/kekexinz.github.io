@@ -6,6 +6,13 @@ author_profile: true
 redirect_from:
   - /resume
 ---
+
+Work experience
+======
+* Assistant professor, UTK, 8.2023 - 
+* Postdoc research associate, MIT, 7.2022 - 
+* Postdoc research associate, University of Michigan, Ann Arbor, 3.2021 -  7.2022.
+  
 Education
 ======
 * Ph.D in aerospace engineering, University of Michigan, Ann Arbor, 2015 - 2020.
@@ -13,12 +20,6 @@ Education
 * MSE in aerospace engineering, University of Michigan, Ann Arbor, 2013 - 2015.
 * BSE in aerospace engineering, University of Michigan, Ann Arbor, 2012 - 2013.
 * BSE in mechanical engineering, Joint Institute, Shanghai Jiao Tong University, 2010 - 2013.
-
-
-Work experience
-======
-* Postdoc research associate, MIT, 7.2022 - Now
-* Postdoc research associate, University of Michigan, Ann Arbor, 3.2021 -  7.2022.
 
 <!-- Skills
 ======
