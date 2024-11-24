@@ -9,17 +9,12 @@ redirect_from:
 
 Work experience
 ======
-* Assistant professor, UTK, 8.2023 - 
-* Postdoc research associate, MIT, 7.2022 - 
-* Postdoc research associate, University of Michigan, Ann Arbor, 3.2021 -  7.2022.
+* Postdoc research associate, UMass Chan Medical School / HHMI, 7.2020 - present
   
 Education
 ======
-* Ph.D in aerospace engineering, University of Michigan, Ann Arbor, 2015 - 2020.
-* MS in applied math, University of Michigan, Ann Arbor, 2014 - 2015.
-* MSE in aerospace engineering, University of Michigan, Ann Arbor, 2013 - 2015.
-* BSE in aerospace engineering, University of Michigan, Ann Arbor, 2012 - 2013.
-* BSE in mechanical engineering, Joint Institute, Shanghai Jiao Tong University, 2010 - 2013.
+* Ph.D in chemistry and scientific computatin, University of Michigan, Ann Arbor, 2015 - 2020.
+* BS in chemistry, Nanjing University, 2011 - 2015.
 
 <!-- Skills
 ======
@@ -44,7 +39,7 @@ Education
   
 Teaching
 ======
-* AE588 MDO, GSI (graduate student instructor), 2020 Spring, University of Michigan
+* CHEM125/126 General Chemistry Lab, GSI (graduate student instructor), 2020 Spring, University of Michigan
 * ME335 Heat transfer, TA (teaching assistant), 2013 Summer, Shanghai Jiao Tong University
   
 Service and leadership
