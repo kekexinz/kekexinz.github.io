@@ -67,8 +67,8 @@ __Publication:__
 
 
 |        |  |
-|   :-:    | -       | 
-| <img src='../images/publication/insitu.png' align="center" width="200" height="10"> | Bronwyn A. Lucas*, __Kexin Zhang__, Sarah Loerch, Nikolaus Grigorieff*. <br><br> [__In situ single particle classification reveals distinct 60S maturation intermediates in cells__](https://elifesciences.org/articles/79272). <br><br> _eLife_ (2022)
+|   :-:    | -       |  
+| <img src='../images/publication/insitu.png' align="center" width="200" height="10"> | Bronwyn A. Lucas*, __Kexin Zhang__, Sarah Loerch, Nikolaus Grigorieff*. <br><br> [__In situ single particle classification reveals distinct 60S maturation intermediates in cells__](https://elifesciences.org/articles/79272.)  <br><br> _eLife_ (2022).|
 
 ## 3. 2DTM statistical metric for robust target detection
 
@@ -79,7 +79,7 @@ __Publication:__
 
 |        |  |
 |   :-:    | -       |  
-| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff.  <br><br> [__New Statistical Metric for Robust Target Detection in Cryo-EM Using 2DTM__](https://www.biorxiv.org/content/10.1101/2024.10.01.616095v1)  <br><br> _IUCrJ (under review)_ (2024).
+| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff.  <br><br> [__New Statistical Metric for Robust Target Detection in Cryo-EM Using 2DTM__](https://www.biorxiv.org/content/10.1101/2024.10.01.616095v1)  <br><br> _bioRxiv (under review)_ (2024).|
 ## 4. Structure determination of sub-50 kDa complexes (ongoing)
 
 <!--![Wind turbine](../images/research/wind_turbine.gif)-->
