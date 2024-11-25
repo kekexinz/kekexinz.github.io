@@ -85,4 +85,4 @@ __Publication:__
 
 <!--![Wind turbine](../images/research/wind_turbine.gif)-->
 
-In **ongoing** research \cite{zhang2025improve}, I apply the newly developed 2DTM p-value to explore the molecular weight limit of cryo-EM. The key finding is that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site with higher resolution. We envision that this method will push the lower molecular weight limit of single-particle cryo-EM, enabling the study of smaller drug-binding complexes and advancing structure-based drug design to new targets.
+In **ongoing** research, I apply the newly developed 2DTM p-value to explore the molecular weight limit of cryo-EM. The key finding is that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site with higher resolution. We envision that this method will push the lower molecular weight limit of single-particle cryo-EM, enabling the study of smaller drug-binding complexes and advancing structure-based drug design to new targets.
