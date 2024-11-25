@@ -7,7 +7,7 @@ redirect_from:
   - /resume
 ---
 
-Check out my recent [presentation](https://github.com/SichengHe/MIT_LAE_seminar/blob/main/Sicheng_He_seminar.pdf)!
+<!-- Check out my recent [presentation](https://github.com/SichengHe/MIT_LAE_seminar/blob/main/Sicheng_He_seminar.pdf)!-->
 
 Table of content
 - [Research vision](#research-vision)
@@ -20,12 +20,11 @@ Table of content
   - [6. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)](#6-structural-global-optimization-using-mixed-integer-linear-or-second-order-cone-optimization-milo-and-misoco)
 
 # Research vision
-I design efficient and environmentally friendly aircraft by developing efficient algorithms and code implementation. 
-I conduct interdisciplinary research--the three domains I have been researching are multidisciplinary design optimization (MDO), dynamical system and control, and machine learning. 
-In my research, I develop new theories to convert previously untackled dynamical systems and control optimization problems into a computationally efficient formulation. 
-Leveraging the new theory, I develop programs to solve problems on a large scale using high-fidelity physical models. 
-Using high-fidelity physical model data, I train machine learning models to expedite simulation and design optimization.
-The unique combination of high-fidelity models and dynamical systems and control of my research can potentially make an impact in fields including aerospace, wind energy, robotics, and automobile industries.
+My research focuses on developing quantitative models for cells, cellular compartments, and biochemical pathways using cryo-electron microscopy (cryo-EM) and tomography (cryo-ET). This interdisciplinary work, summarized in Fig. 1, is driven by a central goal: to uncover the mechanisms by which biomolecules perform specific cellular functions and to design and discover novel therapeutics. Our research aims to revolutionize cryo-EM/ET image processing and quantitatively analyze experimental data using techniques from the fields of statistics and computer science.
+
+The development of direct electron detectors (DEDs) and high-performance computing has enabled structure determination of purified macromolecules at atomic resolution through single-particle cryo-EM. Additionally, thinned cellular samples can be prepared by focused ion beam (FIB) and imaged via cryo-ET to reconstruct the 3D organization of cellular environments. However, the resolution of cryo-ET-derived tomograms remains limited, requiring subtomogram averaging to achieve high-resolution structures. To address this limitation, my research is driven by the following fundamental question: How do we maximize the information that can be extracted from images of radiation-sensitive biological samples to understand the structure-function relationship of biomolecules in cells?
+
+Advancements in microscope hardware and image processing methods are required to improve signal-to-noise ratio and data throughput. My research lab will combine numerical analysis and deep learning algorithms to improve cryo-EM/ET data processing workflows. Specifically, building on the high-resolution 2D template matching (2DTM) approach developed in my postdoctoral lab [1, 2], I will leverage the expanding repository of high-resolution structures and AlphaFold predictions as prior information to detect more challenging targets in images of diverse types of specimens.
 
 ![Vision of research](../images/balls.001.png)
 

@@ -9,11 +9,12 @@ redirect_from:
 
 Work experience
 ======
-* Postdoc research associate, UMass Chan Medical School / HHMI, 7.2020 - present
+* Postdoc Research Associate, UMass Chan Medical School / HHMI, 7.2020 - present
+* Data Scientist Intern, Wacker Chemical Corporation, Summer 2019
   
 Education
 ======
-* Ph.D in chemistry and scientific computatin, University of Michigan, Ann Arbor, 2015 - 2020.
+* Ph.D in chemistry & scientific computing, University of Michigan - Ann Arbor, 2015 - 2020.
 * BS in chemistry, Nanjing University, 2011 - 2015.
 
 <!-- Skills
@@ -39,22 +40,19 @@ Education
   
 Teaching
 ======
-* CHEM125/126 General Chemistry Lab, GSI (graduate student instructor), 2020 Spring, University of Michigan
-* ME335 Heat transfer, TA (teaching assistant), 2013 Summer, Shanghai Jiao Tong University
+* Graduate Student Instructor for CHEM 125/126 General Chemistry Lab
+  * Fall 2015, Winter 2016, Fall 2017, Fall 2019
+  * Lab lectures, office hours, grading
+
+* Graduate Student Instructor Chem 210/211- Organic Chemistry I lab
+  * Winter 2017
+  * Lab lectures, office hours, grading
+  
+* Graduate Student Instructor CHEM 262 Mathematical Methods for Physical Scientists
+  * Winter 2018
+  * Discussion lectures, office hours, grading
   
 Service and leadership
 ======
-* Membership
-  * International Civil Aviation Organization (ICAO), Committee on Aviation Environmental Protection (CAEP), [working group 3 (WG3)](https://www.icao.int/environmental-protection/Pages/CAEP-WG3.aspx). 
-    * WG3 deals with aircraft performance and emission technical matters, including the updating of Annex 16 - Volume II and the development of the new aircraft CO2 Standard, Annex 16 – Volume III.
-* Seminar organization
-  * [IBiM seminar](http://ibim-conference.com/) co-organizer.
-* Technical committee
-  * [International Ocean and Polar Engineering Conference (ISOPE) 2023 Ottawa](https://www.isope.org/)
-* Journal reviewer
-  * AIAA Journal
-  * Structural and Multidisciplinary Optimization (SAMO)
-  * International Journal for Numerical Methods in Fluids
-  * Aerospace, MDPI Journal
-  * Drones, MDPI Journal
-  * AIAA Scitech Conference Abstract (2021, 2022, 2023)
+* Scientific Computing Student Club (SC2) at University of Michigan
+* Committee member for the RTI trainee-invited seminar series at UMass Chan Medical School

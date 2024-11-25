@@ -79,13 +79,13 @@ analytics:
 # Site Author
 author:
   name: "Kexin Zhang"
-  avatar: "kekexinz.png"
-  bio: "in-situ Cryo-EM | template matching | HPC"
+  avatar: "headshot.jpeg"
+  bio: "in-situ Cryo-EM | high resolution template matching | HPC | in silico drug design"
   location: "Worcester, MA"
   employer:
   pubmed:
   googlescholar: "https://scholar.google.com/citations?user=uKxshiAAAAAJ&hl=en"
-  email:
+  email: "kexin.zhang1@umassmed.edu"
   researchgate: "https://www.researchgate.net/profile/Kexin-Zhang-36"
   uri:
   bitbucket:
