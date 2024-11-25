@@ -68,21 +68,21 @@ __Publication:__
 
 |        |  |
 |   :-:    | -       |  
-| <img src='../images/publication/insitu.png' align="center" width="200" height="10"> | Bronwyn A. Lucas*, __Kexin Zhang__, Sarah Loerch, Nikolaus Grigorieff*. <br><br> [__In situ single particle classification reveals distinct 60S maturation intermediates in cells__](https://elifesciences.org/articles/79272.)  <br><br> _eLife_ (2022).|
+| <img src='../images/publication/insitu.jpg' align="center" width="200" height="10"> | Bronwyn A. Lucas*, __Kexin Zhang__, Sarah Loerch, Nikolaus Grigorieff*. <br><br> [__In situ single particle classification reveals distinct 60S maturation intermediates in cells__](https://elifesciences.org/articles/79272.)  <br><br> _eLife_ (2022).|
 
 ## 3. 2DTM statistical metric for robust target detection
 
 Detecting smaller targets by 2DTM remains difficult since the detected signal depends on the molecular weight of the target. Moreover, low-resolution contrast can be a reliable indicator of a target, but is down-weighted in the current 2DTM workflow. I addressed these challenges by developing a new statistical metric for 2DTM, **the 2DTM p-value**, that improves the detection of several **previously challenging** targets, including a 193 kDa clathrin monomer. We envision that the 2DTM p-value is useful for detecting targets of 50 kDa and smaller. We also believe that the p-value increases our ability to reliably detect rare targets that might require a higher detection threshold to lower the chances of false positives.
- 
+
 __Publication:__
 
 
 |        |  |
 |   :-:    | -       |  
-| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff.  <br><br> [__New Statistical Metric for Robust Target Detection in Cryo-EM Using 2DTM__](https://www.biorxiv.org/content/10.1101/2024.10.01.616095v1)  <br><br> _bioRxiv (under review)_ (2024).|
+| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff*. <br><br> [__New Statistical Metric for Robust Target Detection in Cryo-EM Using 2DTM__](https://www.biorxiv.org/content/10.1101/2024.10.01.616095v1)  <br><br> _bioRxiv (under review)_ (2024).|
 
-## 4. Structure determination of sub-50 kDa complexes (ongoing)
+## 4. Structure determination of sub-50 kDa complexes
 
 <!--![Wind turbine](../images/research/wind_turbine.gif)-->
 
-In ongoing research \cite{zhang2025improve}, I apply the newly developed 2DTM p-value to explore the molecular weight limit of cryo-EM. The key finding is that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site with higher resolution. We envision that this method will push the lower molecular weight limit of single-particle cryo-EM, enabling the study of smaller drug-binding complexes and advancing structure-based drug design to new targets.
+In **ongoing** research \cite{zhang2025improve}, I apply the newly developed 2DTM p-value to explore the molecular weight limit of cryo-EM. The key finding is that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site with higher resolution. We envision that this method will push the lower molecular weight limit of single-particle cryo-EM, enabling the study of smaller drug-binding complexes and advancing structure-based drug design to new targets.
