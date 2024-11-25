@@ -7,6 +7,8 @@ redirect_from:
   - /resume
 ---
 
+Teaching
+======
 * Graduate Student Instructor for CHEM 125/126 General Chemistry Lab
   * Fall 2015, Winter 2016, Fall 2017, Fall 2019
   * Lab lectures, office hours, grading
