@@ -12,9 +12,10 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-  - [1. _in situ_ cryo-EM single particle classification](#1-mdo-with-general-dynamical-systems-and-control)
-  - [2. 2DTM statistical metric for robust target detection](#2-aeroelastic-optimization)
-  - [3. Structure determination of sub-50 kDa complexes](#3-machine-learning-in-aerodynamic-shape-optimization)
+  - [1. Multiscale modeling of RNA structures using NMR chemical shifts](#1-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
+  - [2. _in situ_ cryo-EM single particle classification](#2-in-situ-cryo-em-single-particle-classification)
+  - [3. 2DTM statistical metric for robust target detection](#3-2dtm-statistical-metric-for-robust-target-detection)
+  - [4. Structure determination of sub-50 kDa complexes](#4-structure-determination-of-sub-50-kda-complexes)
 
 
 # Research vision
@@ -24,7 +25,9 @@ The development of direct electron detectors (DEDs) and high-performance computi
 
 Advancements in microscope hardware and image processing methods are required to improve signal-to-noise ratio and data throughput. My research lab will combine numerical analysis and deep learning algorithms to improve cryo-EM/ET data processing workflows. Specifically, building on the high-resolution 2D template matching (2DTM) approach developed in my postdoctoral lab [1, 2], I will leverage the expanding repository of high-resolution structures and AlphaFold predictions as prior information to detect more challenging targets in images of diverse types of specimens.
 
-![Vision of research](../images/balls.png)
+<div style="text-align: center;">
+    <img src="../images/balls.png" alt="Vision of research" width="600">
+</div>
 
 The research vision that differentiates me from other labs working on MDO is listed below:
 1. **(Theory)** MDO shall be enabled to address ever **more complex dynamical systems and control problems** beyond the current focus, i.e., the steady-state problems.
@@ -34,26 +37,20 @@ The research vision that differentiates me from other labs working on MDO is lis
 
 # Research projects
 
-## 1. MDO with general dynamical systems and control
+## 1. Multiscale modeling of RNA structures using NMR chemical shifts
 
-Dynamical systems are universal.
-In the past several decades, the MDO community focused on dynamical systems classified as equilibrium points, and little previous research was on bifurcation, LCO, and chaotic systems.
-For example, the transonic buffet constraint, a bifurcation triggered by the shock wave and boundary layer interaction, has only recently been modeled using first principles in a high fidelity optimization problem \cite{Thomas2020}.
-Also, control theory, as a fundamental discipline in aerospace engineering, has been largely overlooked by the MDO community due to its high computational cost. 
-The question I am trying to answer in this research is:
-**How can we optimize a general high-fidelity model-based multidisciplinary dynamical system (with or without control) performance?**
-With this question successfully answered, a large class of problems can be modeled and solved using MDO. 
+The central dogma of molecular biology states that genetic information is stored in DNA and passed to proteins by RNA. 
+The proteins then carry out the cellular functions encoded by genetic information from DNA. 
+Thus, for a long time, RNA was considered to be the intermediate of genetic information.
+However, it was discovered that only 2\% of the human genome is translated into proteins, and the remaining transcripts are thought to be functional non-coding RNAs (ncRNAs). 
+**To carry out biological functions, some ncRNAs may sample different conformational states and fluctuate between a ground state and transient states contingent on environmental conditions.** The structures of these transient RNA states provide significant information regarding their function. 
 
-This is a very challenging question to answer, because of the model dimensionality (millions of state variables and thousands of design variables).
-My research partially answers the question by focusing on developing algorithms scale well with the design variables using the adjoint method.
-The key finding of the research is that each dynamical system has its own unique structure and the adjoint method shall be developed leveraging these structures to gain computational efficiency. 
-Two highlights of my previous research are: 
-1. I developed an algorithm demonstrating that the closed-loop control co-design problem can be solved at a cost independent of the number of design variables. 
-Using the algorithm, I optimized the drone aerodynamic shape which **reduces the control cost by about 30%**.
-1. I developed a **fundamental** method to discover the reverse algorithmic differentiation formula using the forward algorithmic differentiation formula for complex analytic equation and we are **the first to discover a succint eigenvalue derivative formula for a general complex matrix.
+Solution state NMR has been the primary technique for RNA structure determination, and NMR-derived chemical shifts are considered structural “fingerprints” of RNA conformational state(s). **My PhD thesis aimed to develop computational methods to accurately model the structures (secondary structures in particular) of RNA conformational states**, including sparsely populated transient states, based on their chemical shift signatures. 
 
-![baseline](../images/research/baseline.gif)
-![optimized](../images/research/optimized.gif)
+Accurately determining the structure of an RNA is the first step in studying its spatiotemporal properties. To address this challenge, I developed three computational frameworks - **CS-Fold**, **CS-BME**, and **CS-Annotate** - that utilize readily accessible NMR chemical shifts to achieve the following objectives: guiding _de novo_ RNA (secondary) structure prediction, probabilistically modeling the conformational landscape of RNA ensembles, and evaluating the quality of RNA structural models. These tools incorporate a variety of machine learning techniques.
+
+<!-- [baseline](../images/research/baseline.gif)
+![optimized](../images/research/optimized.gif)-->
 
 __Publication:__
 
@@ -66,7 +63,7 @@ __Publication:__
 | <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Yayun Shi, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Eigenvalue problem derivatives computation for a complex matrix using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _MSSP (accepted)_ (2023).|
 | <img src='../images/publication/eigenXDSM.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, and joaquim R. R. A. Martins.  <br><br> [__Derivatives for Eigenvalues and Eigenvectors via Analytic Reverse Algorithmic Differentiation__](https://arc.aiaa.org/doi/abs/10.2514/1.J060726?journalCode=aiaaj)  <br><br> _AIAA Journal_ (2022).|
 
-## 2. Aeroelastic optimization
+## 2. _in situ_ cryo-EM single particle classification
 
 ![Flutter](../images/publication/flutter_fine_ezgif.gif)
 
@@ -91,7 +88,7 @@ I was awarded an AIAA Aviation Conference **best student paper award**.
 | <img src='../images/publication/83.png' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__Coupled Newton–Krylov timespectral solver for ﬂutter and limit cycle oscillation prediction__](https://arc.aiaa.org/doi/10.2514/1.J059224)  <br><br> _AIAA Journal_ (2021).|
 | <img src='../images/publication/flutter_fine_ezgif.gif' align="center" width="200" height="10"> | __Sicheng He__, Eirikur Jonsson, Charles A. Mader, and Joaquim R. R. A. Martins. <br><br> [__A coupled Newton–Krylov time-spectral solver for wing ﬂutter and LCO prediction__](https://arc.aiaa.org/doi/10.2514/6.2019-3549). <br><br> _In AIAA Aviation Forum, Dallas, TX, June 2019_. (Best student paper award, 2nd place)|
 
-## 3. Machine learning in aerodynamic shape optimization
+## 3. 2DTM statistical metric for robust target detection
 
 Surrogate models, including the classic and more recent machine learning models, are becoming essential tools for designers because they outperform a direct numerical analysis in speed with similar accuracy,and they can also solve problems without explicit numerical models.
 Compared with the classic tools (e.g., the kriging method), machine learning tools (e.g., the deep neural network) suffer less from overfitting and perform better when the data set is large.
@@ -113,7 +110,7 @@ The proposed method enables **real-time** aerodynamic analysis and shape optimiz
 | <img src='../images/publication/transonic.png' align="center" width="200" height="10"> | Mohamed Amine Bouhlel, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Scalable gradient-enhanced artiﬁcial neural networks for airfoil shape design in the subsonic and transonic regimes__](https://link.springer.com/article/10.1007/s00158-020-02488-5)  <br><br> _Structural and Multidisciplinary Optimization_ (2020). (Webfoil)|
 | <img src='../images/publication/stream.png' align="center" width="200" height="10"> | Jichao Li, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Data-driven constraint approach to ensure low-speed performance in transonic aerodynamic shape optimization__](https://www.sciencedirect.com/science/article/pii/S1270963819304912)  <br><br> _Aerospace Science and Technology_ (2019).|
 
-## 4. Offshore Wind turbine aerostructural optimization
+## 4. Structure determination of sub-50 kDa complexes
 
 ![Wind turbine](../images/research/wind_turbine.gif)
 
@@ -134,43 +131,3 @@ __Publication:__
 |   :-:    | -       |  
 | <img src='../images/publication/FIG2.jpg' align="center" width="200" height="10"> | Denis-Gabriel Caprace, Adam Cardoza, Teagan Nakamoto, Andrew Ning, Marco Mangano, __Sicheng He__, and Joaquim R. R. A. Martins. <br><br> [__Incorporating high-ﬁdelity aerostructural analyses in wind turbine rotor optimization__](https://arc.aiaa.org/doi/abs/10.2514/6.2022-1290). <br><br> _In AIAA Scitech, San Diego, CA, January 2022. American Institute of Aeronautics and Astronautics_.|
 | <img src='../images/publication/Span_comparison.png' align="center" width="200" height="10"> | Marco Mangano, __Sicheng He__, Denis-Gabriel Caprace, Yingqian Liao, and Joaquim R. R. A. Martins. <br><br> [__Passive aeroelastic tailoring of large wind turbines using high-ﬁdelity multidisciplinary design optimization__](https://arc.aiaa.org/doi/abs/10.2514/6.2022-1289). <br><br> _In AIAA Scitech, San Diego, CA, January 2022. American Institute of Aeronautics and Astronautics_.|
-
-## 5. Aerodynamic shape optimization with laminar-turbulent transition model
-
-We apply gradient-based optimization to design more efficient airfoils with the laminar-turbulent transition modeled by the $e^n$ method. 
-To compute derivatives with large number of design variables, we use the adjoint method.
-One special challenge of the RANS with $e^n$ transition model is that we have the generalized eigenvalue problem embedded in the governing equation. 
-We propose two approaches to address this challenge:
-
-1. Using the simplified $e^n$ model that approximate the eigenvalues (Shi2020).
-2. Developing an adjoint equation and reverse algorithmic differentiation (RAD) formulas for the generalized eigenvalue problem with complex coefficient matrices (He2022, Shi2022).
-  
-The tools we developed in the second approach turns out to be very general and they can be applied to any eigenvalue and eigenvector derivatives of generalized eigenvalue problems with complex coefficient matrices.
-Besides, we also generalize the method to derive RAD formulas based on [dot-product-identity](https://people.maths.ox.ac.uk/gilesm/files/NA-08-01.pdf) proposed by Prof. Giles from real functions to complex analytic functions.
-
-__Publication:__
-
-
-|        |  |
-|   :-:    | -       |  
-| <img src='../images/publication/foil.png' align="center" width="200" height="10"> | Yayun Shi, Charles A. Mader, __Sicheng He__, Gustavo L. O. Halila, and Joaquim R. R. A. Martins. <br><br> [__Natural laminarﬂow airfoil optimization design using a discrete adjoint approach__](https://arc.aiaa.org/doi/10.2514/1.J058944s)  <br><br> _AIAA Journal_ (2020).|
-| <img src='../images/publication/complex_eigen.png' align="center" width="200" height="10"> | __Sicheng He__, Yayun Shi, Eirikur Jonsson, Joaquim R. R. A. Martins.  <br><br> [__Eigenvalue problem derivatives computation for a complex matrix using the adjoint method__](https://www.researchgate.net/publication/362931690_Eigenvalue_problem_derivatives_computation_for_a_complex_matrix_using_the_adjoint_method)  <br><br> _MSSP (accepted)_ (2023).|
-
-## 6. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)
-
-The state-of-the-art of topology design optimization using solid isotropic material with penalization  (SIMP) solves the mixed integer nonlinear programming problem without any guarantee of global optimality.
-In this research, we try to address the following question: **How can we solve the topology and sizing optimization problem to their global optimality?**
-
-To answer that question, we reformulate the problems as mixed integer linear or second order cone optimization formulations following earlier works by [Prof. Mathias Stolpe](https://orbit.dtu.dk/en/persons/jesper-mathias-stolpe).
-We are able to solve truss wing optimization problems with hundreds of binary variables and composite plate with dozens of binary variables.
-One best configuration out of **1.85 trillion** possible configurations is found for the composite plate optimization problem.
-
-__Publication:__
-
-
-|        |  |
-|   :-:    | -       |  
-| <img src='../images/publication/wing315.png' align="center" width="200" height="10"> | Ramin Fakhimi, Mohammad Shahabsafa, Weiming Lei, __Sicheng He__, Joaquim R. R. A. Martins, Luis Zuluaga, and Tamas Terlaky.  <br><br> [__Discrete multi-load truss sizing optimization: model analysis and computational experimentss__](https://link.springer.com/article/10.1007/s11081-021-09672-6)  <br><br> _Optimization and Engineering_ (2021).|
-| <img src='../images/publication/4x4_compliance_dadt.png' align="center" width="200" height="10"> | __Sicheng He__, Mohammad Shahabsafa, Weiming Lei, Ali Mohammad-Nezhad, Tamas Terlaky, Luis Zuluaga, and Joaquim R. R. A. Martins. <br><br> [__Mixed-integer second-order cone optimization for composite discrete ply-angle and thickness topology optimization problems__](https://link.springer.com/article/10.1007/s11081-020-09573-0)  <br><br> _Optimization and Engineering_ (2020).|
-| <img src='../images/publication/M_8_4_8_4_runner_MILO_Gurobi_ver52_1_S1_1_Lehigh_p2.png' align="center" width="200" height="10"> | Mohammad Shahabsafa, Ramin Fakhimi, Weiming Lei, __Sicheng He__, Luis Zuluaga, Joaquim R. R. A. Martins, and Tamas Terlaky. <br><br> [__Truss topology design and sizing optimization with guaranteed kinematic stability__](https://link.springer.com/article/10.1007/s00158-020-02698-x)  <br><br> _Structural and Multidisciplinary Optimization_ (2020).|
-| <img src='../images/publication/stress.png' align="center" width="200" height="10"> | Mohammad Shahabsafa, Ali Mohammad-Nezhad, Tamas Terlaky, Luis Zuluaga, __Sicheng He__, John T. Hwang, and Joaquim R. R. A. Martins. <br><br> [__A novel approach to discrete truss design problems using mixed integer neighborhood search__](https://link.springer.com/article/10.1007/s00158-018-2099-8)  <br><br> _Structural and Multidisciplinary Optimization_ (2018).|
