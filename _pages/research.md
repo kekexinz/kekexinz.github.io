@@ -12,12 +12,10 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-  - [1. MDO with general dynamical systems and control](#1-mdo-with-general-dynamical-systems-and-control)
-  - [2. Aeroelastic optimization](#2-aeroelastic-optimization)
-  - [3. Machine learning in aerodynamic shape optimization](#3-machine-learning-in-aerodynamic-shape-optimization)
-  - [4. Offshore Wind turbine aerostructural optimization](#4-offshore-wind-turbine-aerostructural-optimization)
-  - [5. Aerodynamic shape optimization with laminar-turbulent transition model](#5-aerodynamic-shape-optimization-with-laminar-turbulent-transition-model)
-  - [6. Structural global optimization using mixed integer linear or second order cone optimization (MILO and MISOCO)](#6-structural-global-optimization-using-mixed-integer-linear-or-second-order-cone-optimization-milo-and-misoco)
+  - [1. _in situ_ cryo-EM single particle classification](#1-mdo-with-general-dynamical-systems-and-control)
+  - [2. 2DTM statistical metric for robust target detection](#2-aeroelastic-optimization)
+  - [3. Structure determination of sub-50 kDa complexes](#3-machine-learning-in-aerodynamic-shape-optimization)
+
 
 # Research vision
 My research focuses on developing quantitative models for cells, cellular compartments, and biochemical pathways using cryo-electron microscopy (cryo-EM) and tomography (cryo-ET). This interdisciplinary work, summarized in Fig. 1, is driven by a central goal: to uncover the mechanisms by which biomolecules perform specific cellular functions and to design and discover novel therapeutics. Our research aims to revolutionize cryo-EM/ET image processing and quantitatively analyze experimental data using techniques from the fields of statistics and computer science.
@@ -26,7 +24,7 @@ The development of direct electron detectors (DEDs) and high-performance computi
 
 Advancements in microscope hardware and image processing methods are required to improve signal-to-noise ratio and data throughput. My research lab will combine numerical analysis and deep learning algorithms to improve cryo-EM/ET data processing workflows. Specifically, building on the high-resolution 2D template matching (2DTM) approach developed in my postdoctoral lab [1, 2], I will leverage the expanding repository of high-resolution structures and AlphaFold predictions as prior information to detect more challenging targets in images of diverse types of specimens.
 
-![Vision of research](../images/balls.001.png)
+![Vision of research](../images/balls.png)
 
 The research vision that differentiates me from other labs working on MDO is listed below:
 1. **(Theory)** MDO shall be enabled to address ever **more complex dynamical systems and control problems** beyond the current focus, i.e., the steady-state problems.
