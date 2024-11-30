@@ -10,7 +10,7 @@ redirect_from:
 
 My name is Kexin Zhang. 
 I am a PostDoc at the [Grigorieff lab](https://grigoriefflab.umassmed.edu/) at UMass Chan Medical School.
-Previously, I worked with [Aaron Frank](https://sites.lsa.umich.edu/frank-lab/) at the Unversity of Michigan-Ann Arbor.
+Previously, I worked with [Aaron Frank](https://www.linkedin.com/in/aaron-frank-9801ab17) at the Unversity of Michigan-Ann Arbor.
 You can find more about my research [here](https://kekexinz.github.io/research/).
 
 <!-- <img src="../images/UTK.svg.png" width="100"> -->
