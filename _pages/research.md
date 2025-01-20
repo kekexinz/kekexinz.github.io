@@ -12,7 +12,7 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-- [1. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#1-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
+  - [1. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#1-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
   - [2. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#2-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
   - [3. _In situ_ cryo-EM single particle classification](#3-in-situ-cryo-em-single-particle-classification)
   - [4. Multiscale modeling of RNA structures using NMR chemical shifts](#4-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
@@ -31,7 +31,7 @@ Advancements in microscope hardware and image processing methods are required to
 My research lies on the interface of structural biology, visual proteomics, and machine learning. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
 
 # Past and current research projects
-## 1. Improved alignment and reconstruction of sub-50 kDa complexes using cryo-EM and 2D template matching (2DTM)
+## 1. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
 <!--![Wind turbine](../images/research/wind_turbine.gif)-->
 
