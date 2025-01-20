@@ -25,11 +25,11 @@ You can find more about my research [here](https://kekexinz.github.io/research/)
 <!-- <img src="../images/mdo.svg" width="200"> -->
 
 
-My research interests include:
+My research areas include:
 
 * High-resolution high-throughput visual proteomics
-* Biomolecular structural modeling
-* Cryo-EM/ET image processing
+* Deep learning-based cryo-EM/ET image processing
+* Statistical signal processing
 * Structure-based drug discovery
   
 
