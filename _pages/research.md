@@ -46,7 +46,7 @@ __Publication:__
 
 |        |  |
 |   :-:    | -       |  
-| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff*. <br><br> [__A New Statistical Metric for Robust Target Detection in Cryo-EM Using 2D template matching__](https://www.biorxiv.org/content/10.1101/2024.10.01.616095v1)  <br><br> _IUCrJ_ (2025).|
+| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff*. <br><br> [__A New Statistical Metric for Robust Target Detection in Cryo-EM Using 2D template matching__](https://doi.org/10.1107/S2052252524011771)  <br><br> _IUCrJ_ (2025).|
 
 ## 3. _In situ_ cryo-EM single particle classification
 
