@@ -4,17 +4,17 @@ title: "Publications"
 permalink: /publications/
 author_profile: true
 ---
-## Preprints
-
+## Preprints and work in preparation
 |        |  |
 |   :-:    | -       |  
-| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff.  <br><br> [__New Statistical Metric for Robust Target Detection in Cryo-EM Using 2DTM__](https://www.biorxiv.org/content/10.1101/2024.10.01.616095v1)  <br><br> _bioRxiv (under review)_ (2024).|
+| <img src='../images/publication/sub50kDa.png' align="center" width="200" height="10"> | __Kexin Zhang__, Nikolaus Grigorieff.  <br><br> __Improved Cryo-EM Reconstruction of Sub-50 kDa Complexes Using 2D Template Matching__]  <br><br> _in preparation_ (2025).|
 | <img src='../images/publication/estimating.png' align="center" width="200" height="10"> | Aaditya V. Rangan, Wai-Shing Tang, Pilar Cossio, __Kexin Zhang__, Nikolaus Grigorieff.  <br><br> [__Estimating the tails of the spectrum of the Hessian of the log-likelihood for ab-initio single-particle reconstruction in electron cryomicroscopy__](https://arxiv.org/abs/2411.13263v1)  <br><br> _arXiv_ (2024).|
 
 ## Journal articles
 
 |        |  |
 |   :-:    | -       |
+| <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff.  <br><br> [__A New Statistical Metric for Robust Target Detection in Cryo-EM Using 2D Template Matching__](https://www.biorxiv.org/content/10.1101/2024.10.01.616095v1)  <br><br> _IUCrJ_ (2025).|
 | <img src='../images/publication/cs-fold.jpg' align="center" width="200" height="10"> | __Kexin Zhang__, Aaron T. Frank*.  <br><br> [__Conditional Prediction of Ribonucleic Acid Secondary Structure Using Chemical Shifts__](https://pubs.acs.org/doi/full/10.1021/acs.jpcb.9b09814)  <br><br> _The Journal of Physical Chemistry B_ (2019).|
 | <img src='../images/publication/cs-bme.jpeg' align="center" width="200" height="10"> | __Kexin Zhang__, Aaron T. Frank*.  <br><br> [__Probabilistic Modeling of RNA Ensembles Using NMR Chemical ShiftsArticle__](https://pubs.acs.org/doi/10.1021/acs.jpcb.1c05651)  <br><br> _The Journal of Physical Chemistry B_ (2021).|
 | <img src='../images/publication/cs-annotate.jpeg' align="center" width="200" height="10"> | __Kexin Zhang__, Kyrillos Abdallah, Pujan Ajmera, Kyle Finos, Andrew Looka, Joseph Mekhael, Aaron T. Frank*.  <br><br> [__CS-Annotate: A Tool for Using NMR Chemical Shifts to Annotate RNA Structure__](https://pubs.acs.org/doi/10.1021/acs.jcim.1c00006#:~:text=At%20its%20core%2C%20CS-Annotate,from%20their%20chemical%20shift%20fingerprint.)  <br><br> _Journal of Chemical Information and Modeling_ (2021).|
