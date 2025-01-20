@@ -8,7 +8,7 @@ author_profile: true
 
 |        |  |
 |   :-:    | -       |
-| <img src='../images/publication/sub50kda.png' align="center" width="200" height="150"> | __Kexin Zhang__, Nikolaus Grigorieff.  <br><br> __Improved Cryo-EM Reconstruction of Sub-50 kDa Complexes Using 2D Template Matching__  <br><br> _In preparation (2025)_. No link available yet. |
+| <img src='../images/publication/sub50kda.png' align="center" width="200" height="10"> | __Kexin Zhang__, Nikolaus Grigorieff.  <br><br> __Improved Cryo-EM Reconstruction of Sub-50 kDa Complexes Using 2D Template Matching__  <br><br> _In preparation (2025)_. No link available yet. |
 | <img src='../images/publication/estimating.png' align="center" width="200" height="10"> | Aaditya V. Rangan, Wai-Shing Tang, Pilar Cossio, __Kexin Zhang__, Nikolaus Grigorieff.  <br><br> [__Estimating the tails of the spectrum of the Hessian of the log-likelihood for ab-initio single-particle reconstruction in electron cryomicroscopy__](https://arxiv.org/abs/2411.13263v1)  <br><br> _arXiv_ (2024).|
 
 ## Journal articles
