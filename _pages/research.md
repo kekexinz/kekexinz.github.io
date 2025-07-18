@@ -12,10 +12,11 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-  - [1. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#1-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
-  - [2. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#2-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
-  - [3. _In situ_ cryo-EM single particle classification](#3-in-situ-cryo-em-single-particle-classification)
-  - [4. Multiscale modeling of RNA structures using NMR chemical shifts](#4-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
+  - [1. (Onging) Accelerated 2D template matching via deep denoising and differentiable pose optimization](#1-accelerated-2D-template-matching-via-deep-denoising-and-differentiable-pose-optimization)
+  - [2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#1-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
+  - [3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#2-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
+  - [4. _In situ_ cryo-EM single particle classification](#3-in-situ-cryo-em-single-particle-classification)
+  - [5. Multiscale modeling of RNA structures using NMR chemical shifts](#4-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
 
 # Research vision - _signal detection in complex cellular environments_
 My research is driven by the following fundamental questions: what are the molecular mechanisms by which biomolecules perform specific cellular functions, and how can we design and discover novel therapeutics based on these insights? To answer these questions, I develop imaging and image analysis methods for cryo-electron microscopy/tomography (cryo-EM/ET) to quantitatively model cells, cellular compartments, and biological pathways. My research plans aim to revolutionize biomolecular imaging and image processing by integrating techniques from the fields of statistics and computer science. 
@@ -31,13 +32,17 @@ Advancements in microscope hardware and image processing methods are required to
 My research lies on the interface of structural biology, visual proteomics, and machine learning. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
 
 # Past and current research projects
-## 1. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
+## 1. Accelerated 2D template matching via deep denoising and differentiable pose optimization
 
-<!--![Wind turbine](../images/research/wind_turbine.gif)-->
+Online soon...
+## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
-In my **ongoing** research (manuscript in preparation), I explore the **lower molecular weight limit** of single-particle cryo-EM through a combination of theoretical and experimental approaches. By applying scattering theory, I recently determined the updated lower molecular weight limit to be ~20 kDa using 300 keV electrons. I also applied the newly developed 2DTM p-value (described in the following project) and found that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site with higher resolution. We envision that this method will enable the study of smaller drug-binding complexes and advance structure-based drug design to new targets.
+![Cryo-EM result](../images/research/small_molecule_project.png)
 
-## 2. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)
+
+In a **recently completed** project (manuscript ready), I explore the **lower molecular weight limit** of single-particle cryo-EM through a combination of theoretical and experimental approaches. By applying image formation theory, I determined the updated lower molecular weight limit to be 7.8 kDa, assuming perfect imaging conditions, the use of a phase plate and the use of liquid helium cooling. I also applied the newly developed 2DTM p-value (described in the following project) and found that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site of the protein kinase A (~41 kDa) with higher resolution. We envision that this method will enable the study of smaller drug-binding complexes and advance structure-based drug design to new targets.
+
+## 3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)
 
 Detecting smaller targets by 2DTM remains difficult since the detected signal depends on the molecular weight of the target. Moreover, low-resolution contrast can be a reliable indicator of a target, but is down-weighted in the current 2DTM workflow. I addressed these challenges by developing a new statistical metric for 2DTM, **the 2DTM p-value**, that improves the detection of several **previously challenging** targets, including a 193 kDa clathrin monomer. We envision that the 2DTM p-value is useful for detecting targets of 50 kDa and smaller. We also believe that the p-value increases our ability to reliably detect rare targets that might require a higher detection threshold to lower the chances of false positives.
 
@@ -48,7 +53,7 @@ __Publication:__
 |   :-:    | -       |  
 | <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff*. <br><br> [__A New Statistical Metric for Robust Target Detection in Cryo-EM Using 2D template matching__](https://doi.org/10.1107/S2052252524011771)  <br><br> _IUCrJ_ (2025).|
 
-## 3. _In situ_ cryo-EM single particle classification
+## 4. _In situ_ cryo-EM single particle classification
 
 <!-- ![Flutter](../images/publication/flutter_fine_ezgif.gif)-->
 
@@ -62,7 +67,7 @@ __Publication:__
 | <img src='../images/publication/insitu.jpg' align="center" width="200" height="10"> | Bronwyn A. Lucas*, __Kexin Zhang__, Sarah Loerch, Nikolaus Grigorieff*. <br><br> [__In situ single particle classification reveals distinct 60S maturation intermediates in cells__](https://elifesciences.org/articles/79272.)  <br><br> _eLife_ (2022).|
 
 
-## 4. Multiscale modeling of RNA structures using NMR chemical shifts
+## 5. Multiscale modeling of RNA structures using NMR chemical shifts
 
 The central dogma of molecular biology states that genetic information is stored in DNA and passed to proteins by RNA. 
 The proteins then carry out the cellular functions encoded by genetic information from DNA. 
