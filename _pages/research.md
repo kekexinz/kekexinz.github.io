@@ -12,11 +12,11 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-  - [1. (Onging) Accelerated 2D template matching via deep denoising and differentiable pose optimization](#1-accelerated-2D-template-matching-via-deep-denoising-and-differentiable-pose-optimization)
-  - [2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#1-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
-  - [3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#2-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
-  - [4. _In situ_ cryo-EM single particle classification](#3-in-situ-cryo-em-single-particle-classification)
-  - [5. Multiscale modeling of RNA structures using NMR chemical shifts](#4-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
+  - [1. Accelerated 2D template matching via deep denoising and differentiable pose optimization](#1-accelerated-2d-template-matching-via-deep-denoising-and-differentiable-pose-optimization)
+  - [2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#2-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
+  - [3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#3-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
+  - [4. _In situ_ cryo-EM single particle classification](#4-in-situ-cryo-em-single-particle-classification)
+  - [5. Multiscale modeling of RNA structures using NMR chemical shifts](#5-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
 
 # Research vision - _data driven signal detection in complex cellular environments_
 My research is driven by the following fundamental questions: what are the molecular mechanisms by which biomolecules perform specific cellular functions, and how can we design and discover novel therapeutics based on these insights? To answer these questions, I develop imaging and image analysis methods for cryo-electron microscopy/tomography (cryo-EM/ET) to quantitatively model cells, cellular compartments, and biological pathways. My research plans aim to revolutionize biomolecular imaging and image processing by integrating techniques from the fields of statistics and computer science. 
@@ -34,11 +34,13 @@ My research lies on the interface of structural biology, visual proteomics, and 
 # Past and current research projects
 ## 1. Accelerated 2D template matching via deep denoising and differentiable pose optimization
 
-Online soon...
+Work in progress...
+
 ## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
-![Cryo-EM result](../images/research/small_molecule_project.png)
-
+<div style="text-align: center;">
+    <img src="../images/research/small_molecule_project.png" alt="2DTM reconstruction of sub-50 kDa complexes" width="600">
+</div>
 
 In a **recently completed** project (manuscript ready), I explore the **lower molecular weight limit** of single-particle cryo-EM through a combination of theoretical and experimental approaches. By applying image formation theory, I determined the updated lower molecular weight limit to be 7.8 kDa, assuming perfect imaging conditions, the use of a phase plate and the use of liquid helium cooling. I also applied the newly developed 2DTM p-value (described in the following project) and found that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site of the protein kinase A (~41 kDa) with higher resolution. We envision that this method will enable the study of smaller drug-binding complexes and advance structure-based drug design to new targets.
 
