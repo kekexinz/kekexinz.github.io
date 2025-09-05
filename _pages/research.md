@@ -18,7 +18,7 @@ Table of content
   - [4. _In situ_ cryo-EM single particle classification](#4-in-situ-cryo-em-single-particle-classification)
   - [5. Multiscale modeling of RNA structures using NMR chemical shifts](#5-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
 
-# Research vision - _Data-Driven Structural Biology for Complex Cellular Environments_
+# Research vision - Developing Cryo-EM Foundation Models for Data-Driven Structural Biology
 My research is driven by the following fundamental questions: what are the molecular mechanisms by which biomolecules perform specific cellular functions, and how can we design and discover novel therapeutics based on these insights? To answer these questions, I develop imaging and image analysis methods for cryo-electron microscopy/tomography (cryo-EM/ET) to quantitatively model cells, cellular compartments, and biological pathways. My research plans aim to revolutionize biomolecular imaging and image processing by integrating techniques from the fields of statistics and computer science. 
 
 In the past decade, the development of direct electron detectors (DEDs) and image processing methods has led to exponential growth in the biomolecular structures solved by EM. In single-particle cryo-EM, purified biomolecules are dispersed onto a support grid and rapidly frozen to form a thin layer of vitreous ice. The grid is then imaged in an electron microscope to record movies that are called "micrographs". Thousands of individual particle images of different views can be picked from noisy micrographs, aligned, and averaged to reconstruct the high-resolution 3D structure of the macromolecule. In additional to single-particle cryo-EM, thinned cellular samples can be prepared by focused ion beam (FIB) and imaged via cryo-ET to reconstruct the 3D organization of cellular environments to study the structure of biomolecules _in situ_. Since the so-called **resolution revolution** in 2013, cryo-EM has been used to determine the structures of many biomolecular structures that are not tractable with other methods.
@@ -31,7 +31,7 @@ Advancements in microscope hardware and image processing methods are required to
 
 My research lies on the interface of cryo-EM, machine learning, and structural biology. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
 
-# Past and current research projects
+# Current (and past) research projects
 ## 1. DiffTM: Differentiable 2D template matching for fast pose inference in cryo-EM
 
 <div style="text-align: center;">
