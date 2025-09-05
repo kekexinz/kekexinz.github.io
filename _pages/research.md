@@ -26,10 +26,10 @@ In the past decade, the development of direct electron detectors (DEDs) and imag
 Advancements in microscope hardware and image processing methods are required to improve signal-to-noise ratio and data throughput. My research combines **numerical analysis** and **deep learning algorithms** to improve cryo-EM/ET data processing workflows. Specifically, building on the high-resolution 2D template matching (2DTM) approach developed in my postdoctoral lab, I will leverage the expanding repository of high-resolution structures and AlphaFold predictions as prior information to detect more challenging targets in images of diverse types of specimens.
 
 <div style="text-align: center;">
-    <img src="../images/balls.png" alt="Vision of research" width="600">
+    <img src="../images/balls.jpeg" alt="Vision of research" width="600">
 </div>
 
-My research lies on the interface of structural biology, visual proteomics, and machine learning. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
+My research lies on the interface of cryo-EM, machine learning, and structural biology. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
 
 # Past and current research projects
 ## 1. DiffTM: Differentiable 2D template matching for fast pose inference in cryo-EM
