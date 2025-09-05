@@ -37,6 +37,7 @@ My research lies on the interface of structural biology, visual proteomics, and 
 <div style="text-align: center;">
     <img src="../images/research/pose_trajectory.png" alt="Pose optimization trajectory in DiffTM" width="600">
 </div>
+
 DiffTM is a differentiable framework that leverages neural networks to accelerate pose inference and improve generalization across imaging conditions. 
 
 ## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
