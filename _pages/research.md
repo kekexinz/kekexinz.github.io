@@ -12,7 +12,7 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-  - [1. Accelerated 2D template matching via deep denoising and differentiable pose optimization](#1-accelerated-2d-template-matching-via-deep-denoising-and-differentiable-pose-optimization)
+  - [1. Accelerated 2D template matching via deep denoising and differentiable pose optimization](#1-difftm-differentiable-2d-template-matching-for-fast-pose-inference-in-cryo-em)
   - [2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#2-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
   - [3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#3-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
   - [4. _In situ_ cryo-EM single particle classification](#4-in-situ-cryo-em-single-particle-classification)
@@ -32,9 +32,12 @@ Advancements in microscope hardware and image processing methods are required to
 My research lies on the interface of structural biology, visual proteomics, and machine learning. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
 
 # Past and current research projects
-## 1. Accelerated 2D template matching via deep denoising and differentiable pose optimization
+## 1. DiffTM: Differentiable 2D template matching for fast pose inference in cryo-EM
 
-Work in progress...
+<div style="text-align: center;">
+    <img src="../images/research/pose_trajectory.png" alt="Pose optimization trajectory in DiffTM" width="600">
+</div>
+DiffTM is a differentiable framework that leverages neural networks to accelerate pose inference and improve generalization across imaging conditions. 
 
 ## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
