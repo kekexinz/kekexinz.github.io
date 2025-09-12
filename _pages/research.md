@@ -52,10 +52,9 @@ In this study, we extend single-particle cryo-EM to the sub-50 kDa regime by lev
 
 __Publication:__
 
-
-**Kexin Zhang***, Timothy Grant, Nikolaus Grigorieff*.  
+**Kexin Zhang\***, Timothy Grant, Nikolaus Grigorieff\*  
 [**Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching**](https://doi.org/xxxxxxx)  
-_bioRxiv_ (2025).
+_bioRxiv_ (2025). *Under review*
 
 ## 3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)
 
