@@ -27,7 +27,7 @@ You can find more about my research [here](https://kekexinz.github.io/research/)
 
 My research areas include:
 
-* AI-driven and differentiable algorithms for cryo-EM/ET
+* AI-driven and differentiable algorithms for cryo-EM
 * High-resolution high-throughput visual proteomics
 * Computational structural biology and drug discovery
   
