@@ -48,7 +48,14 @@ DiffTM is a differentiable framework that leverages neural networks to accelerat
     <img src="../images/research/small_molecule_project.png" alt="2DTM reconstruction of sub-50 kDa complexes" width="600">
 </div>
 
-In a **recently completed** project (manuscript ready), I explore the **lower molecular weight limit** of single-particle cryo-EM through a combination of theoretical and experimental approaches. By applying image formation theory, I determined the updated lower molecular weight limit to be 7.8 kDa, assuming perfect imaging conditions, the use of a phase plate and the use of liquid helium cooling. I also applied the newly developed 2DTM p-value (described in the following project) and found that 2DTM improves the alignment of targets smaller than 50 kDa and reconstructs the cofactor-binding site of the protein kinase A (~41 kDa) with higher resolution. We envision that this method will enable the study of smaller drug-binding complexes and advance structure-based drug design to new targets.
+In this study, we extend single-particle cryo-EM to the sub-50 kDa regime by leveraging 2D template matching (2DTM) for accurate particle alignment and stringent particle selection. Applying our method to a previously published ~41 kDa catalytic domain of protein kinase A dataset, we demonstrate improved visualization of ligands and binding pockets compared to traditional workflows. We further present calculations suggesting that the molecular weight limit can be pushed to below 10 kDa with the combined use of a phase plate and liquid-helium cooling. Together, these findings establish a roadmap for making isolated small complexes tractable targets for high-resolution cryo-EM. 
+
+__Publication:__
+
+
+**Kexin Zhang***, Timothy Grant, Nikolaus Grigorieff*.  
+[**Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching**](https://doi.org/xxxxxxx)  
+_bioRxiv_ (2025).
 
 ## 3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)
 
