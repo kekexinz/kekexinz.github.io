@@ -27,10 +27,9 @@ You can find more about my research [here](https://kekexinz.github.io/research/)
 
 My research areas include:
 
+* AI-driven and differentiable algorithms for cryo-EM/ET
 * High-resolution high-throughput visual proteomics
-* Deep learning-based cryo-EM/ET image processing
-* Statistical signal processing
-* Structure-based drug discovery
+* Computational structural biology and drug discovery
   
 
 <!-- [Erdos number:](https://mathscinet.ams.org/mathscinet/collaborationDistance.html) 4
