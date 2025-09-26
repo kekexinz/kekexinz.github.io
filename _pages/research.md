@@ -34,13 +34,19 @@ Advancements in microscope hardware and image processing methods are required to
 My research lies on the interface of cryo-EM, deep learning, and structural biology. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
 
 # Current (and past) research projects
-## 1. DiffTM: Differentiable 2D template matching for fast pose inference in cryo-EM
+## 1. DiffPose: Differentiable projection matching for fast pose inference in cryo-EM
 
 <div style="text-align: center;">
     <img src="../images/research/pose_trajectory.png" alt="Pose optimization trajectory in DiffTM" width="600">
 </div>
 
-DiffTM is a differentiable framework that leverages neural networks to accelerate pose inference and improve generalization across imaging conditions. 
+DiffPose is a differentiable framework that uses neural networks to accelerate pose inference and generalize across diverse imaging conditions. In our experiments, it achieves orders-of-magnitude faster performance than conventional grid search.
+
+__Publication:__
+
+**Kexin Zhang\***, Dongjie Zhu, Nikolaus Grigorieff\*  
+[**DiffPose: Differentiable projection matching for fast pose inference in cryo-EM**](https://doi.org/xxx)  
+_arxiv_ (2025). *Submitted (link available soon)*
 
 ## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
@@ -53,8 +59,8 @@ In this study, we extend single-particle cryo-EM to the sub-50 kDa regime by lev
 __Publication:__
 
 **Kexin Zhang\***, Timothy Grant, Nikolaus Grigorieff\*  
-[**Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching**](https://doi.org/xxxxxxx)  
-_bioRxiv_ (2025). *Under review*
+[**Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching**](https://doi.org/10.1101/2025.09.11.675606)  
+_bioRxiv_ (2025). *Under Review*
 
 ## 3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)
 
