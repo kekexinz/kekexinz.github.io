@@ -37,7 +37,7 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
 ## 1. DiffPose: Differentiable projection matching for fast pose inference in cryo-EM
 
 <div style="text-align: center;">
-    <img src="../images/research/pose_traj.png" alt="Pose optimization trajectory in DiffTM" width="600">
+    <img src="../images/research/pose_trajectory.png" alt="Pose optimization trajectory in DiffTM" width="600">
 </div>
 
 DiffPose is a differentiable framework that uses neural networks to accelerate pose inference and generalize across diverse imaging conditions. In our experiments, it achieves orders-of-magnitude faster performance than conventional grid search.
