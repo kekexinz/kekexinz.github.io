@@ -46,7 +46,7 @@ __Publication:__
 
 **Kexin Zhang\***, Dongjie Zhu, Nikolaus Grigorieff\*  
 [**DiffPose: Differentiable projection matching for fast pose inference in cryo-EM**](https://doi.org/xxx)  
-_arxiv_ (2025). *Submitted (link available soon)*
+*Submitted, 2025 (link available soon)*
 
 ## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
