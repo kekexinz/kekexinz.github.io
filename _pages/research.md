@@ -36,8 +36,26 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
 # Current (and past) research projects
 ## 1. DiffPose: Differentiable projection matching for fast pose inference in cryo-EM
 
-<div style="text-align: center;">
-    <img src="../images/research/pose_trajectory.png" alt="Pose optimization trajectory in DiffTM" width="600">
+<div style="display:flex; gap:16px; align-items:flex-start; justify-content:center; flex-wrap:wrap;">
+  <!-- Left: trajectory -->
+  <figure style="margin:0; max-width:600px; flex:1 1 360px;">
+    <img src="../images/research/pose_trajectory.png"
+         alt="Pose optimization trajectory in DiffPose"
+         style="width:100%; height:auto; border:1px solid rgba(0,0,0,0.08); border-radius:8px;">
+    <figcaption style="text-align:center; font-size:0.9em; margin-top:6px; opacity:0.8;">
+      Pose optimization trajectory
+    </figcaption>
+  </figure>
+
+  <!-- Right: GIF demo -->
+  <figure style="margin:0; max-width:360px; flex:1 1 300px;">
+    <img src="../images/research/pose_orbit.gif"
+         alt="Local pose continuity demo (small orbit)"
+         style="width:100%; height:auto; border:1px solid rgba(0,0,0,0.08); border-radius:8px;">
+    <figcaption style="text-align:center; font-size:0.9em; margin-top:6px; opacity:0.8;">
+      Local pose continuity
+    </figcaption>
+  </figure>
 </div>
 
 DiffPose is a differentiable framework that uses neural networks to accelerate pose inference and generalize across diverse imaging conditions. In our experiments, it achieves orders-of-magnitude faster performance than conventional grid search.
