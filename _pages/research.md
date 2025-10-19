@@ -12,7 +12,7 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-  - [1. Accelerated 2D template matching via deep denoising and differentiable pose optimization](#1-difftm-differentiable-2d-template-matching-for-fast-pose-inference-in-cryo-em)
+  - [1. DiffPose: Differentiable projection matching for fast pose inference in cryo-EM](#1-diffpose-differentiable-projection-matching-for-fast-pose-inference-in-cryo-em)
   - [2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#2-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
   - [3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#3-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
   - [4. _In situ_ cryo-EM single particle classification](#4-in-situ-cryo-em-single-particle-classification)
@@ -28,7 +28,7 @@ Yet, major challenges remain: cryo-EM struggles with **small, flexible, or heter
 Advancements in microscope hardware and image processing methods are required to improve signal-to-noise ratio and data throughput. My research combines **numerical analysis** and **deep learning algorithms** to improve cryo-EM/ET data processing workflows. Specifically, building on the high-resolution 2D template matching (2DTM) approach developed in my postdoctoral lab, I will leverage the expanding repository of high-resolution structures and AlphaFold predictions as prior information to detect more challenging targets in images of diverse types of specimens.
 
 <div style="text-align: center;">
-    <img src="../images/balls.png" alt="Vision of research" width="600">
+    <img src="../images/research/roadmap_sim.png" alt="Vision of research" width="900">
 </div>
 
 My research lies on the interface of cryo-EM, deep learning, and structural biology. By accurately modeling the conformational states of biomolecules, we establish prior knowledge of their localization within cells, thereby deepening our understanding of their functions and advancing structure-based drug discovery.
@@ -63,8 +63,8 @@ DiffPose is a differentiable framework that uses neural networks to accelerate p
 __Publication:__
 
 **Kexin Zhang\***, Dongjie Zhu, Nikolaus Grigorieff\*  
-[**DiffPose: Differentiable projection matching for fast pose inference in cryo-EM**](https://doi.org/xxx)  
-*Submitted, 2025 (link available soon)*
+[**DiffPose: Differentiable projection matching for fast pose inference in cryo-EM**](https://www.researchgate.net/publication/396499801_DiffPose_Differentiable_projection_matching_for_fast_pose_inference_in_cryo-EM)  
+*ResearchGate, 2025*
 
 ## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
