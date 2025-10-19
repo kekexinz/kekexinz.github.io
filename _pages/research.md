@@ -14,10 +14,10 @@ Table of content
 - [Research projects](#research-projects)
   - [1. DiffPose: Differentiable pose optimization for cryo-EM images](#1-diffpose-differentiable-projection-matching-for-fast-pose-inference-in-cryo-em)
   - [2. GisAPR: Atomic model refinement directly against cryo-EM images](#2-gisapr-a-package-refines-atomic-models-against-cryo-em-images-without-3d-volumes)
-  - [3. Improved reconstruction of sub-50 kDa complexes using 2D template matching](#2-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
-  - [4. Robust target detection in cryo-EM using high-resolution 2D template matching](#3-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
-  - [5. _In situ_ single-particle classification in cryo-ET](#4-in-situ-cryo-em-single-particle-classification)
-  - [6. Multiscale modeling of RNA structures using NMR chemical shifts](#5-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
+  - [3. Improved reconstruction of sub-50 kDa complexes using 2D template matching](#3-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
+  - [4. Robust target detection in cryo-EM using high-resolution 2D template matching](#4-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
+  - [5. _In situ_ single-particle classification in cryo-ET](#5-in-situ-cryo-em-single-particle-classification)
+  - [6. Multiscale modeling of RNA structures using NMR chemical shifts](#6-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
 
 
 # Research vision - Building Cryo-EM Foundation Models for Particle Detection and Structural Inference
