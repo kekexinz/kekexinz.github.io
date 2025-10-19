@@ -12,11 +12,13 @@ redirect_from:
 Table of content
 - [Research vision](#research-vision)
 - [Research projects](#research-projects)
-  - [1. DiffPose: Differentiable projection matching for fast pose inference in cryo-EM](#1-diffpose-differentiable-projection-matching-for-fast-pose-inference-in-cryo-em)
-  - [2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)](#2-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
-  - [3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)](#3-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
-  - [4. _In situ_ cryo-EM single particle classification](#4-in-situ-cryo-em-single-particle-classification)
-  - [5. Multiscale modeling of RNA structures using NMR chemical shifts](#5-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
+  - [1. DiffPose: Differentiable pose optimization for cryo-EM images](#1-diffpose-differentiable-projection-matching-for-fast-pose-inference-in-cryo-em)
+  - [2. GisAPR: Atomic model refinement directly against cryo-EM images](#2-gisapr-a-package-refines-atomic-models-against-cryo-em-images-without-3d-volumes)
+  - [3. Improved reconstruction of sub-50 kDa complexes using 2D template matching](#2-improved-cryo-em-reconstruction-of-sub-50-kda-complexes-using-2d-template-matching-2dtm)
+  - [4. Robust target detection in cryo-EM using high-resolution 2D template matching](#3-robust-target-detection-in-cryo-em-images-using-high-resolution-2d-template-matching-2dtm)
+  - [5. _In situ_ single-particle classification in cryo-ET](#4-in-situ-cryo-em-single-particle-classification)
+  - [6. Multiscale modeling of RNA structures using NMR chemical shifts](#5-multiscale-modeling-of-rna-structures-using-nmr-chemical-shifts)
+
 
 # Research vision - Building Cryo-EM Foundation Models for Particle Detection and Structural Inference
 My research is driven by a central question: **how can we transform cryo-EM into a predictive, data-driven science that explains cellular mechanisms and accelerates drug discovery?** To answer this, I develop computational methods that combine AI, statistical modeling, and cryo-EM physics to unlock structures that remain invisible to current pipelines. 
@@ -66,7 +68,19 @@ __Publication:__
 [**DiffPose: Differentiable projection matching for fast pose inference in cryo-EM**](https://www.researchgate.net/publication/396499801_DiffPose_Differentiable_projection_matching_for_fast_pose_inference_in_cryo-EM)  
 *ResearchGate, 2025*
 
-## 2. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
+## 2. GisAPR, a package refines atomic models against cryo-EM images without 3D volumes
+
+In this project, we refine atomic coordinates directly against raw cryo-EM images, bypassing the traditional 3D reconstruction step.
+More results coming soon, stay tuned!
+
+__Publication:__
+
+Dongjie Zhu&dagger;, <b>Kexin Zhang</b>&dagger;, Lingli Kong, Nikolaus Grigorieff*
+
+[**GisAPR, a package refines atomic models against cryo-EM images without 3D volumes**](xxx)  
+*In preparation, 2025*
+
+## 3. Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching (2DTM)
 
 <div style="text-align: center;">
     <img src="../images/research/small_molecule_project.png" alt="2DTM reconstruction of sub-50 kDa complexes" width="600">
@@ -80,7 +94,7 @@ __Publication:__
 [**Improved cryo-EM reconstruction of sub-50 kDa complexes using 2D template matching**](https://doi.org/10.1101/2025.09.11.675606)  
 _bioRxiv_ (2025). *Under Review*
 
-## 3. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)
+## 4. Robust target detection in cryo-EM images using high-resolution 2D template matching (2DTM)
 
 Detecting smaller targets by 2DTM remains difficult since the detected signal depends on the molecular weight of the target. Moreover, low-resolution contrast can be a reliable indicator of a target, but is down-weighted in the current 2DTM workflow. I addressed these challenges by developing a new statistical metric for 2DTM, **the 2DTM p-value**, that improves the detection of several **previously challenging** targets, including a 193 kDa clathrin monomer. We envision that the 2DTM p-value is useful for detecting targets of 50 kDa and smaller. We also believe that the p-value increases our ability to reliably detect rare targets that might require a higher detection threshold to lower the chances of false positives.
 
@@ -91,7 +105,7 @@ __Publication:__
 |   :-:    | -       |  
 | <img src='../images/publication/2dtmpvalue.png' align="center" width="200" height="10"> | __Kexin Zhang__, Pilar Cossio, Aaditya V. Rangan, Bronwyn A. Lucas, Nikolaus Grigorieff*. <br><br> [__A New Statistical Metric for Robust Target Detection in Cryo-EM Using 2D template matching__](https://doi.org/10.1107/S2052252524011771)  <br><br> _IUCrJ_ (2025).|
 
-## 4. _In situ_ cryo-EM single particle classification
+## 5. _In situ_ cryo-EM single particle classification
 
 <!-- ![Flutter](../images/publication/flutter_fine_ezgif.gif)-->
 
@@ -105,7 +119,7 @@ __Publication:__
 | <img src='../images/publication/insitu.jpg' align="center" width="200" height="10"> | Bronwyn A. Lucas*, __Kexin Zhang__, Sarah Loerch, Nikolaus Grigorieff*. <br><br> [__In situ single particle classification reveals distinct 60S maturation intermediates in cells__](https://elifesciences.org/articles/79272.)  <br><br> _eLife_ (2022).|
 
 
-## 5. Multiscale modeling of RNA structures using NMR chemical shifts
+## 6. Multiscale modeling of RNA structures using NMR chemical shifts
 
 The central dogma of molecular biology states that genetic information is stored in DNA and passed to proteins by RNA. 
 The proteins then carry out the cellular functions encoded by genetic information from DNA. 
