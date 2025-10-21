@@ -41,8 +41,8 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
 <!-- 🎥 Pose movies: first two same height, third smaller -->
 <style>
   :root {
-    --main-media-h: clamp(220px, 30vw, 340px);   /* taller for main videos */
-    --small-media-h: clamp(160px, 22vw, 260px);  /* smaller for inset GIF */
+    --main-media-h: clamp(250px, 33vw, 340px);   /* fixed typo */
+    --small-media-h: clamp(120px, 16vw, 180px);
   }
 
   .media-row {
@@ -74,7 +74,7 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
     height: var(--main-media-h);
   }
 
-  /* GIF (smaller figure) */
+  /* GIF: smaller figure */
   .media-frame.image {
     height: var(--small-media-h);
   }
@@ -91,8 +91,17 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
     text-align: center;
     font-size: 0.9em;
     opacity: 0.8;
-    margin-top: 4px;
+    margin-top: 0px;
   }
+
+  /* Tighten captions for first two (videos only) */
+  .media-card:has(.media-frame.video) figcaption {
+    margin-top: -40px !important;
+  }
+
+  .media-card.small-offset {
+  margin-top: 80px;   /* adjust 16–32px until visually aligned */
+}
 
   @media (max-width: 900px) {
     :root {
@@ -126,14 +135,13 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
   </figure>
 
   <!-- 3️⃣ Smaller GIF -->
-  <figure class="media-card" style="max-width:300px; flex:1 1 260px;">
-    <div class="media-frame image">
-      <img class="media" src="../images/research/pose_orbit.gif"
-           alt="Local pose continuity demo (small orbit)">
-    </div>
-    <figcaption>Local pose continuity</figcaption>
-  </figure>
-</div>
+  <figure class="media-card small-offset" style="max-width:300px; flex:1 1 260px;">
+  <div class="media-frame image">
+    <img class="media" src="../images/research/pose_orbit.gif"
+         alt="Local pose continuity demo (small orbit)">
+  </div>
+  <figcaption>Local pose continuity</figcaption>
+</figure>
 
 
 DiffPose is a differentiable framework that uses neural networks to accelerate pose inference and generalize across diverse imaging conditions. In our experiments, it achieves orders-of-magnitude faster performance than conventional grid search.
