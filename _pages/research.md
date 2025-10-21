@@ -69,7 +69,7 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
     line-height:1.2;
   }
   /* tighten captions for video figures only (adjacent sibling) */
-  .pose-block .media-frame.video + figcaption{ margin-top:-16px !important; }
+  .pose-block .media-frame.video + figcaption{ margin-top:-40px !important; }
 
   /* optional: nudge the third figure down a bit */
   .pose-block .media-card.small-offset{ margin-top:24px; }
