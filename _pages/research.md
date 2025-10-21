@@ -38,28 +38,69 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
 # Current (and past) research projects
 ## 1. DiffPose: Differentiable projection matching for fast pose inference in cryo-EM
 
-<div style="display:flex; gap:16px; align-items:flex-start; justify-content:center; flex-wrap:wrap;">
-  <!-- Left: trajectory -->
-  <figure style="margin:0; max-width:600px; flex:1 1 360px;">
-    <video autoplay loop muted playsinline
-           style="width:100%; height:auto; border:0px solid rgba(0,0,0,0.08); border-radius:8px;">
-      <source src="../images/research/pose_refine_single.mp4" type="video/mp4">
-    </video>
-    <figcaption style="text-align:center; font-size:0.9em; margin-top:-55px; opacity:0.8;">
-      Pose optimization trajectory
-    </figcaption>
+<!-- 🎥 Pose movies: equal-height, responsive -->
+<style>
+  /* tune this to change the visual height across breakpoints */
+  :root { --media-h: clamp(220px, 32vw, 360px); }
+
+  .media-row{
+    display:flex; gap:16px; align-items:flex-start; justify-content:center; flex-wrap:wrap;
+  }
+  .media-card{
+    margin:0; max-width:600px; flex:1 1 360px;
+  }
+  .media-frame{
+    height: var(--media-h);
+    width: 100%;
+    border-radius: 12px;
+    overflow: hidden;            /* clips any rectangular edges */
+    background: #fff;            /* match your page bg */
+  }
+  .media{
+    display:block;
+    width:100%; height:100%;
+    object-fit: cover;           /* keeps equal height; crops if AR differs */
+    border:0;
+  }
+  .media-card figcaption{
+    text-align:center; font-size:0.9em; opacity:0.8; margin-top:8px;
+  }
+
+  /* optional: keep captions aligned even when items wrap */
+  @media (max-width: 720px){
+    :root { --media-h: clamp(200px, 40vw, 300px); }
+  }
+</style>
+
+<div class="media-row">
+  <!-- 1) Single trajectory -->
+  <figure class="media-card">
+    <div class="media-frame">
+      <video class="media" autoplay loop muted playsinline preload="metadata"
+             src="../images/research/pose_refine_single.mp4"></video>
+    </div>
+    <figcaption>Pose optimization trajectory (single)</figcaption>
   </figure>
 
-  <!-- Right: GIF demo -->
-  <figure style="margin:0; max-width:360px; flex:1 1 300px;">
-    <img src="../images/research/pose_orbit.gif"
-         alt="Local pose continuity demo (small orbit)"
-         style="width:100%; height:auto; border:1px solid rgba(0,0,0,0.08); border-radius:8px;">
-    <figcaption style="text-align:center; font-size:0.9em; margin-top:6px; opacity:0.8;">
-      Local pose continuity
-    </figcaption>
+  <!-- 2) Multiple particles (N=64) -->
+  <figure class="media-card">
+    <div class="media-frame">
+      <video class="media" autoplay loop muted playsinline preload="metadata"
+             src="../images/research/multi_clean.mp4"></video>
+    </div>
+    <figcaption>Pose refinement across 64 particles</figcaption>
+  </figure>
+
+  <!-- 3) Continuity demo (keep your GIF) -->
+  <figure class="media-card">
+    <div class="media-frame">
+      <img class="media" src="../images/research/pose_orbit.gif"
+           alt="Local pose continuity demo (small orbit)">
+    </div>
+    <figcaption>Local pose continuity</figcaption>
   </figure>
 </div>
+
 
 DiffPose is a differentiable framework that uses neural networks to accelerate pose inference and generalize across diverse imaging conditions. In our experiments, it achieves orders-of-magnitude faster performance than conventional grid search.
 
