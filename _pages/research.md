@@ -41,10 +41,11 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
 <div style="display:flex; gap:16px; align-items:flex-start; justify-content:center; flex-wrap:wrap;">
   <!-- Left: trajectory -->
   <figure style="margin:0; max-width:600px; flex:1 1 360px;">
-    <img src="../images/research/pose_trajectory.png"
-         alt="Pose optimization trajectory in DiffPose"
-         style="width:100%; height:auto; border:1px solid rgba(0,0,0,0.08); border-radius:8px;">
-    <figcaption style="text-align:center; font-size:0.9em; margin-top:6px; opacity:0.8;">
+    <video autoplay loop muted playsinline
+           style="width:100%; height:auto; border:0px solid rgba(0,0,0,0.08); border-radius:8px;">
+      <source src="../images/research/pose_refine_single.mp4" type="video/mp4">
+    </video>
+    <figcaption style="text-align:center; font-size:0.9em; margin-top:-55px; opacity:0.8;">
       Pose optimization trajectory
     </figcaption>
   </figure>
