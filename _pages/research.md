@@ -47,12 +47,12 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
     display:flex; gap:16px; align-items:flex-start; justify-content:center; flex-wrap:wrap;
   }
   .media-card{
-    margin:0; max-width:600px; flex:1 1 360px;
+    margin:10px; max-width:400px; flex:1 1 360px;
   }
   .media-frame{
     height: var(--media-h);
     width: 100%;
-    border-radius: 12px;
+    border-radius: 6px;
     overflow: hidden;            /* clips any rectangular edges */
     background: #fff;            /* match your page bg */
   }
@@ -63,7 +63,7 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
     border:0;
   }
   .media-card figcaption{
-    text-align:center; font-size:0.9em; opacity:0.8; margin-top:8px;
+    text-align:center; font-size:1.0em; opacity:0.8; margin-top:0px;
   }
 
   /* optional: keep captions aligned even when items wrap */
