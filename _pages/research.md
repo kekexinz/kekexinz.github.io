@@ -38,62 +38,96 @@ My research lies on the interface of cryo-EM, deep learning, and structural biol
 # Current (and past) research projects
 ## 1. DiffPose: Differentiable projection matching for fast pose inference in cryo-EM
 
-<!-- 🎥 Pose movies: equal-height, responsive -->
+<!-- 🎥 Pose movies: first two same height, third smaller -->
 <style>
-  /* tune this to change the visual height across breakpoints */
-  :root { --media-h: clamp(220px, 32vw, 360px); }
+  :root {
+    --main-media-h: clamp(220px, 30vw, 340px);   /* taller for main videos */
+    --small-media-h: clamp(160px, 22vw, 260px);  /* smaller for inset GIF */
+  }
 
-  .media-row{
-    display:flex; gap:16px; align-items:flex-start; justify-content:center; flex-wrap:wrap;
+  .media-row {
+    display: flex;
+    gap: 16px;
+    align-items: flex-start;
+    justify-content: center;
+    flex-wrap: wrap;
   }
-  .media-card{
-    margin:10px; max-width:400px; flex:1 1 360px;
+
+  .media-card {
+    margin: 0;
+    flex: 1 1 340px;
+    max-width: 380px;
   }
-  .media-frame{
-    height: var(--media-h);
+
+  .media-frame {
     width: 100%;
-    border-radius: 6px;
-    overflow: hidden;            /* clips any rectangular edges */
-    background: #fff;            /* match your page bg */
-  }
-  .media{
-    display:block;
-    width:100%; height:100%;
-    object-fit: cover;           /* keeps equal height; crops if AR differs */
-    border:0;
-  }
-  .media-card figcaption{
-    text-align:center; font-size:1.0em; opacity:0.8; margin-top:0px;
+    border-radius: 8px;
+    overflow: hidden;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 
-  /* optional: keep captions aligned even when items wrap */
-  @media (max-width: 720px){
-    :root { --media-h: clamp(200px, 40vw, 300px); }
+  /* Videos: full height */
+  .media-frame.video {
+    height: var(--main-media-h);
+  }
+
+  /* GIF (smaller figure) */
+  .media-frame.image {
+    height: var(--small-media-h);
+  }
+
+  .media {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    border: 0;
+    display: block;
+  }
+
+  .media-card figcaption {
+    text-align: center;
+    font-size: 0.9em;
+    opacity: 0.8;
+    margin-top: 4px;
+  }
+
+  @media (max-width: 900px) {
+    :root {
+      --main-media-h: clamp(200px, 36vw, 300px);
+      --small-media-h: clamp(140px, 26vw, 220px);
+    }
+  }
+
+  @media (max-width: 720px) {
+    .media-row { gap: 12px; }
   }
 </style>
 
 <div class="media-row">
-  <!-- 1) Single trajectory -->
+  <!-- 1️⃣ Single trajectory -->
   <figure class="media-card">
-    <div class="media-frame">
+    <div class="media-frame video">
       <video class="media" autoplay loop muted playsinline preload="metadata"
              src="../images/research/pose_refine_single.mp4"></video>
     </div>
     <figcaption>Pose optimization trajectory (single)</figcaption>
   </figure>
 
-  <!-- 2) Multiple particles (N=64) -->
+  <!-- 2️⃣ Multiple particles -->
   <figure class="media-card">
-    <div class="media-frame">
+    <div class="media-frame video">
       <video class="media" autoplay loop muted playsinline preload="metadata"
              src="../images/research/multi_clean.mp4"></video>
     </div>
     <figcaption>Pose refinement across 64 particles</figcaption>
   </figure>
 
-  <!-- 3) Continuity demo (keep your GIF) -->
-  <figure class="media-card">
-    <div class="media-frame">
+  <!-- 3️⃣ Smaller GIF -->
+  <figure class="media-card" style="max-width:300px; flex:1 1 260px;">
+    <div class="media-frame image">
       <img class="media" src="../images/research/pose_orbit.gif"
            alt="Local pose continuity demo (small orbit)">
     </div>
