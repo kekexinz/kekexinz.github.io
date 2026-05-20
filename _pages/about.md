@@ -8,6 +8,8 @@ redirect_from:
   - /about.html
 ---
 
+**Announcement:** I will be starting my lab at **Yale University** in **Fall 2026**! Visit [our lab website](https://kexinzhang-lab.github.io/) for more information, and feel free to reach out if you are interested in joining.
+
 My name is Kexin Zhang. 
 I am a PostDoc at the [Grigorieff lab](https://grigoriefflab.umassmed.edu/) at UMass Chan Medical School.
 Previously, I worked with [Aaron Frank](https://www.linkedin.com/in/aaron-frank-9801ab17) at the Unversity of Michigan-Ann Arbor.
