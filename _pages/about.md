@@ -37,7 +37,3 @@ My research areas include:
 <!-- [Erdos number:](https://mathscinet.ams.org/mathscinet/collaborationDistance.html) 4
 
 [Einstein number:](https://mathscinet.ams.org/mathscinet/collaborationDistance.html?group_source=62280) 5 -->
-
-<a href="http://www.clustrmaps.com/map/kekexinz.github.io" title="Visit tracker for kekexinz.github.io"><img src="//www.clustrmaps.com/map_v2.png?d=Yinf0SIfIVyX0tflo2y6HXIQ9kKDblBuGVpWA0L3-60&cl=ffffff"></a>
-
-<!-- <a href="https://clustrmaps.com/site/1c2om"  title="Visit tracker"><img src="//www.clustrmaps.com/map_v2.png?d=Yinf0SIfIVyX0tflo2y6HXIQ9kKDblBuGVpWA0L3-60&cl=ffffff" /></a> -->
